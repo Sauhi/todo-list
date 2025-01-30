@@ -83,7 +83,7 @@
 
 
 body {
-    background: url("./img/background.jpg");
+    background: url("./img/background.png");
 }
 
 .container {
@@ -157,4 +157,10 @@ img {
 
 .task:hover img {
     opacity: 1;
+
 }
+
+    .done{
+        background-color: #8fac55;
+        text-decoration: line-through;
+    }
